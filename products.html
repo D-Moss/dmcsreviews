@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="indexreviews.css">
+	<link rel="stylesheet" type="text/css" href="products.css">
+	<title>Products | DMCS Reviews</title>
+</head>
+<body>
+	<!--NAVIGATION BAR-->
+	<header class="site-header">
+		<nav class="site-nav" aria-label="Main navigation">
+			<a href="https://www.dmcreativesolutions.com/" class="site-logo" aria-label="DM Creative Solutions home">
+				<img src="https://i.postimg.cc/zfn1dfqc/android-chrome-192x192.png" alt="DM Creative Solutions logo">
+			</a>
+
+			<ul class="site-nav__links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="places.html">Places</a></li>
+				<li><a href="products.html" aria-current="page">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html" class="nav-pill">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<!-- HERO -->
+		<section class="products-hero" aria-labelledby="products-hero-title">
+			<div class="products-hero__inner">
+				<div class="products-hero__copy">
+					<h1 id="products-hero-title" class="products-hero__title">
+						Product reviews that are simple, honest, and actually useful.
+					</h1>
+					<p class="products-hero__text">
+						From everyday items to sports finds and household favorites, these are products I’ve tried and would genuinely recommend.
+					</p>
+
+					<div class="products-hero__actions">
+						<a href="#productsFilter" class="btn btn-primary">Browse Reviews</a>
+						<a href="places.html" class="btn btn-outline">See Place Reviews</a>
+					</div>
+				</div>
+
+				<div class="products-hero__panel">
+					<div class="products-hero__stat">
+						<span class="products-hero__stat-number">Real</span>
+						<span class="products-hero__stat-label">reviews from actual purchases and experiences</span>
+					</div>
+
+					<ul class="products-hero__list">
+						<li>Filter by category</li>
+						<li>Read the short version first</li>
+						<li>Expand any card for the full review</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="products-section" aria-labelledby="products-section-title">
+			<div class="products-section__inner">
+				<div class="products-section__header">
+					<div>
+						<p class="products-section__eyebrow">Browse Products</p>
+						<h2 id="products-section-title" class="products-section__title">Shop by category</h2>
+						<p class="products-section__text">
+							Start with a category, then open any card to read the full review without leaving the page.
+						</p>
+					</div>
+				</div>
+
+				<div class="products-filter" id="productsFilter" role="toolbar" aria-label="Filter products">
+					<button class="products-filter__btn is-active" type="button" data-filter="all">All</button>
+					<button class="products-filter__btn" type="button" data-filter="household">Household</button>
+					<button class="products-filter__btn" type="button" data-filter="sports">Sports</button>
+					<button class="products-filter__btn" type="button" data-filter="accessories">Accessories</button>
+					<button class="products-filter__btn" type="button" data-filter="tech">Tech</button>
+				</div>
+
+				<div class="products-grid">
+					<article class="products-card" data-category="accessories household">
+						<div class="products-card__image-wrap">
+							<img src="https://i.postimg.cc/j2BVgyQj/20260425-025019-1.jpg" alt="Mini backpack" class="products-card__image">
+						</div>
+
+						<div class="products-card__body">
+							<div class="products-card__top">
+								<span class="products-card__tag">Accessories</span>
+								<h3 class="products-card__title">Mini Backpack</h3>
+								<p class="products-card__meta">Amazon Review • Everyday Use</p>
+								<p class="products-card__summary">
+									A compact everyday backpack with just the right amount of space for essentials without feeling bulky.
+								</p>
+							</div>
+
+							<div class="products-card__actions">
+								<button class="products-card__toggle" type="button" aria-expanded="false">
+									Read More
+								</button>
+							</div>
+
+							<div class="products-card__full" hidden>
+								<div class="products-card__full-inner">
+									<p>
+										I was looking for a small backpack for everyday use, and this one ended up being exactly what I needed.
+									</p>
+									<p>
+										It has two main compartments that are spacious enough to carry things like a water bottle, wallet, keys, and other daily essentials without feeling cramped. There’s also a smaller compartment that works well for quick-access items.
+									</p>
+									<p>
+										One feature I really like is the hidden zipper pocket inside, which is perfect for storing money or anything you want to keep a little more secure. The small decorative details on the zipper are also a nice touch—they add some personality without being too much.
+									</p>
+									<p>
+										Size-wise, it strikes a good balance. It’s big enough to be useful and noticeable, but not so large that it feels bulky or gets in the way.
+									</p>
+									<p>
+										I usually stick to black bags, but I wanted something different this time, and this one immediately caught my eye. I’m really happy with it and would definitely recommend it.
+									</p>
+									<p class="products-card__source">Originally based on my Amazon review.</p>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<article class="products-card" data-category="household kids">
+						<div class="products-card__image-wrap">
+							<img src="https://i.postimg.cc/ZqYM0VmD/frozen.jpg" alt="Frozen dinnerware set" class="products-card__image">
+						</div>
+
+						<div class="products-card__body">
+							<div class="products-card__top">
+								<span class="products-card__tag">Household</span>
+								<h3 class="products-card__title">Frozen Dinnerware Set (5-Piece)</h3>
+								<p class="products-card__meta">Amazon Purchase • Kids</p>
+								<p class="products-card__summary">
+									A complete kids dinnerware set that’s fun, practical, and perfect for Frozen fans.
+								</p>
+							</div>
+
+							<div class="products-card__actions">
+								<button class="products-card__toggle" type="button" aria-expanded="false">
+									Read More
+								</button>
+							</div>
+
+							<div class="products-card__full" hidden>
+								<div class="products-card__full-inner">
+									<p>
+										I purchased this Frozen dinnerware set for my niece since she loves the movie, and it ended up being a really great choice.
+									</p>
+									<p>
+										The biggest plus is that it comes as a full set, so I didn’t have to piece anything together. It includes a plate, bowl, utensils, and a water bottle, which made it super convenient.
+									</p>
+									<p>
+										The water bottle was one of the standout items. It didn’t leak or spill, even when it was left laying on the floor, which is a big deal for kids.
+									</p>
+									<p>
+										The spoon and fork were perfectly sized for a child, making it easy for her to use on her own. The entire set also held up really well over time and didn’t feel cheap.
+									</p>
+									<p>
+										I’m not completely sure if it’s microwave safe, but I did use it in the microwave a few times without any issues.
+									</p>
+									<p>
+										Overall, this was a great buy. It’s practical, durable, and perfect if you’re shopping for a kid who loves Frozen.
+									</p>
+
+									<p class="products-card__source">Personal purchase.</p>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<article class="products-card" data-category="electronics accessories">
+	<div class="products-card__image-wrap">
+		<img src="https://i.postimg.cc/HLWhjBmv/neck-fan.jpg" alt="Portable neck fan" class="products-card__image">
+	</div>
+
+	<div class="products-card__body">
+		<div class="products-card__top">
+			<span class="products-card__tag">Electronics</span>
+			<h3 class="products-card__title">Portable Neck Fan</h3>
+			<p class="products-card__meta">Amazon Purchase • Outdoor Use</p>
+			<p class="products-card__summary">
+				A hands-free fan that works, but doesn’t quite deliver the cooling effect you might expect.
+			</p>
+		</div>
+
+		<div class="products-card__actions">
+			<button class="products-card__toggle" type="button" aria-expanded="false">
+				Read More
+			</button>
+		</div>
+
+		<div class="products-card__full" hidden>
+			<div class="products-card__full-inner">
+				<p>
+					This neck fan was an okay purchase overall. It works, but it didn’t fully meet my expectations.
+				</p>
+				<p>
+					The fan does blow air and can be helpful when you’re outside in the heat, but it’s important to know that it’s just circulating the air around you. So if it’s hot outside, you’re still getting hot air.
+				</p>
+				<p>
+					I did like that the fans are adjustable, which makes it easy to direct airflow where you want it. It’s also very easy to charge and use.
+				</p>
+				<p>
+					I only ended up using it a few times because it wasn’t really for me. I think it would be better if it actually produced cooler or colder air instead of just moving warm air around.
+				</p>
+				<p>
+					Overall, it’s not a bad product—it just depends on what you’re expecting from it.
+				</p>
+
+				<p class="products-card__source">Personal purchase.</p>
+			</div>
+		</div>
+	</div>
+</article>
+
+					<article class="products-card" id="sheets" data-category="household bedding">
+						<div class="products-card__image-wrap">
+		<img src="https://i.postimg.cc/g0cTrNpS/sheets.jpg" alt="Deep pocket bed sheets" class="products-card__image">
+	</div>
+
+	<div class="products-card__body">
+		<div class="products-card__top">
+			<span class="products-card__tag">Household</span>
+			<h3 class="products-card__title">Extra Deep Pocket Sheet Set</h3>
+			<p class="products-card__meta">Amazon Purchase • Bedding</p>
+			<p class="products-card__summary">
+				Soft, well-fitting sheets that are perfect for thicker mattresses and great for the price.
+			</p>
+		</div>
+
+		<div class="products-card__actions">
+			<button class="products-card__toggle" type="button" aria-expanded="false">
+				Read More
+			</button>
+		</div>
+
+		<div class="products-card__full" hidden>
+			<div class="products-card__full-inner">
+				<p>
+					These sheets were a great purchase, especially if you have a thicker mattress.
+				</p>
+				<p>
+					The fitted sheet fits perfectly without slipping off, which is something I’ve had issues with in the past. The extra deep pockets make a big difference.
+				</p>
+				<p>
+					The texture is one of the best parts—they’re soft with a smooth, almost silky feel that makes them really comfortable to sleep on.
+				</p>
+				<p>
+					I also liked the color options. There’s a good variety to choose from, and the one I picked looked just as good in person.
+				</p>
+				<p>
+					The set comes with everything you need: a fitted sheet, flat sheet, and two pillowcases, which makes it a great value.
+				</p>
+				<p>
+					Overall, I would definitely buy these again and would recommend them if you’re looking for comfortable sheets that actually fit properly.
+				</p>
+
+				<p class="products-card__source">Personal purchase.</p>
+			</div>
+		</div>
+	</div>
+</article>
+
+				</div>
+
+				<p class="products-empty" hidden>
+					No reviews in this category yet.
+				</p>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer" aria-label="Site footer">
+		<div class="footer-inner">
+			<div class="footer-brand">
+				<a href="index.html" class="footer-logo">DMCS Reviews</a>
+				<p class="footer-note">
+					Honest reviews of places I’ve visited and products I’ve tested.
+				</p>
+			</div>
+
+			<nav class="footer-nav" aria-label="Footer">
+				<div class="footer-col">
+					<p class="footer-title">Explore</p>
+					<ul class="footer-links" role="list">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="places.html">Places</a></li>
+						<li><a href="products.html">Products</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<p class="footer-title">About</p>
+					<ul class="footer-links" role="list">
+						<li><a href="about.html">About Me</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<p class="footer-title">Follow</p>
+					<div class="footer-social">
+						<a href="#">Instagram</a>
+						<a href="#">Facebook</a>
+					</div>
+				</div>
+			</nav>
+
+			<div class="footer-bottom">
+				<p>© 2026 DMCS Reviews. All rights reserved.</p>
+				<p class="footer-disclaimer">Reviews based on my personal experience and opinions.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="products.js"></script>
+</body>
+</html>
